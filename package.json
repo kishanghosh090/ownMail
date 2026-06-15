@@ -1,0 +1,16 @@
+{
+  "name": "ownemail",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/smtp-server": "^3.5.13",
+    "smtp-server": "^3.19.0"
+  }
+}
